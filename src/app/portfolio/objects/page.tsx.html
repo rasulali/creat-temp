@@ -1,0 +1,130 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="GENERATOR" content="cloc http://github.com/AlDanial/cloc">
+
+<!-- Created by cloc v2.00 -->
+<title>src/app/portfolio/objects/page.tsx</title>
+
+<style TYPE="text/css">
+<!--
+    body {
+        color: black;
+        background-color: white;
+        font-family: monospace
+    }
+
+    .whitespace {
+        background-color: gray;
+    }
+
+    .comment {
+        color: gray;
+        font-style: italic;
+    }
+
+    .clinenum {
+        color: red;
+    }
+
+    .linenum {
+        color: green;
+    }
+ -->
+</style>
+</head>
+<body>
+<pre><tt>
+&nbsp; <span class="linenum"> 01 </span> &nbsp;<span class="normal">"use client";</span> &nbsp;
+<!-- blank -->
+&nbsp; <span class="linenum"> 02 </span> &nbsp;<span class="normal">import Heading from "@/components/heading";</span> &nbsp;
+&nbsp; <span class="linenum"> 03 </span> &nbsp;<span class="normal">import Card from "@/components/cardPortfolio";</span> &nbsp;
+&nbsp; <span class="linenum"> 04 </span> &nbsp;<span class="normal">import BackNav from "@/components/backNav";</span> &nbsp;
+&nbsp; <span class="linenum"> 05 </span> &nbsp;<span class="normal">import Footer from "@/components/footer";</span> &nbsp;
+<!-- blank -->
+&nbsp; <span class="linenum"> 06 </span> &nbsp;<span class="normal">const Objects = () =&gt; {</span> &nbsp;
+&nbsp; <span class="linenum"> 07 </span> &nbsp;<span class="normal">  return (</span> &nbsp;
+&nbsp; <span class="linenum"> 08 </span> &nbsp;<span class="normal">    &lt;main className="w-screen relative bg-grayA"&gt;</span> &nbsp;
+&nbsp; <span class="linenum"> 09 </span> &nbsp;<span class="normal">      &lt;BackNav /&gt;</span> &nbsp;
+&nbsp; <span class="linenum"> 10 </span> &nbsp;<span class="normal">      &lt;section className="w-full lg:pt-24 pt-12 lg:px-16 sm:px-8 px-4"&gt;</span> &nbsp;
+&nbsp; <span class="linenum"> 11 </span> &nbsp;<span class="normal">        &lt;div className="flex justify-center lg:mb-8 mb-4"&gt;</span> &nbsp;
+&nbsp; <span class="linenum"> 12 </span> &nbsp;<span class="normal">          &lt;Heading</span> &nbsp;
+&nbsp; <span class="linenum"> 13 </span> &nbsp;<span class="normal">            animate={{ from: -20, to: 0, dir: "y" }}</span> &nbsp;
+&nbsp; <span class="linenum"> 14 </span> &nbsp;<span class="normal">            variant="h2"</span> &nbsp;
+&nbsp; <span class="linenum"> 15 </span> &nbsp;<span class="normal">            text="İaşə Obyektləri"</span> &nbsp;
+&nbsp; <span class="linenum"> 16 </span> &nbsp;<span class="normal">          /&gt;</span> &nbsp;
+&nbsp; <span class="linenum"> 17 </span> &nbsp;<span class="normal">        &lt;/div&gt;</span> &nbsp;
+&nbsp; <span class="linenum"> 18 </span> &nbsp;<span class="normal">        &lt;div</span> &nbsp;
+&nbsp; <span class="linenum"> 19 </span> &nbsp;<span class="normal">          className="flex flex-wrap max-w-[calc(832px*3.5)] lg:gap-x-8</span> &nbsp;
+&nbsp; <span class="linenum"> 20 </span> &nbsp;<span class="normal">              lg:gap-y-8 gap-y-4 mx-auto justify-center overflow-hidden lg:p-4"</span> &nbsp;
+&nbsp; <span class="linenum"> 21 </span> &nbsp;<span class="normal">        &gt;</span> &nbsp;
+&nbsp; <span class="linenum"> 22 </span> &nbsp;<span class="normal">          &lt;Card</span> &nbsp;
+&nbsp; <span class="linenum"> 23 </span> &nbsp;<span class="normal">            src="/objects/1/images/hero.jpg"</span> &nbsp;
+&nbsp; <span class="linenum"> 24 </span> &nbsp;<span class="normal">            name="Quantum"</span> &nbsp;
+&nbsp; <span class="linenum"> 25 </span> &nbsp;<span class="normal">            link="/portfolio/objects/1"</span> &nbsp;
+&nbsp; <span class="linenum"> 26 </span> &nbsp;<span class="normal">          /&gt;</span> &nbsp;
+&nbsp; <span class="linenum"> 27 </span> &nbsp;<span class="normal">          &lt;Card</span> &nbsp;
+&nbsp; <span class="linenum"> 28 </span> &nbsp;<span class="normal">            src="/objects/2/images/hero.jpg"</span> &nbsp;
+&nbsp; <span class="linenum"> 29 </span> &nbsp;<span class="normal">            name="Stardust"</span> &nbsp;
+&nbsp; <span class="linenum"> 30 </span> &nbsp;<span class="normal">            link="/portfolio/objects/2"</span> &nbsp;
+&nbsp; <span class="linenum"> 31 </span> &nbsp;<span class="normal">          /&gt;</span> &nbsp;
+&nbsp; <span class="linenum"> 32 </span> &nbsp;<span class="normal">          &lt;Card</span> &nbsp;
+&nbsp; <span class="linenum"> 33 </span> &nbsp;<span class="normal">            src="/objects/3/images/hero.jpg"</span> &nbsp;
+&nbsp; <span class="linenum"> 34 </span> &nbsp;<span class="normal">            name="Baku City Hospital"</span> &nbsp;
+&nbsp; <span class="linenum"> 35 </span> &nbsp;<span class="normal">            link="/portfolio/objects/3"</span> &nbsp;
+&nbsp; <span class="linenum"> 36 </span> &nbsp;<span class="normal">          /&gt;</span> &nbsp;
+&nbsp; <span class="linenum"> 37 </span> &nbsp;<span class="normal">          &lt;Card</span> &nbsp;
+&nbsp; <span class="linenum"> 38 </span> &nbsp;<span class="normal">            src="/objects/4/images/hero.jpg"</span> &nbsp;
+&nbsp; <span class="linenum"> 39 </span> &nbsp;<span class="normal">            name="Erkemed Ortopedik Medical"</span> &nbsp;
+&nbsp; <span class="linenum"> 40 </span> &nbsp;<span class="normal">            link="/portfolio/objects/4"</span> &nbsp;
+&nbsp; <span class="linenum"> 41 </span> &nbsp;<span class="normal">          /&gt;</span> &nbsp;
+&nbsp; <span class="linenum"> 42 </span> &nbsp;<span class="normal">          &lt;Card</span> &nbsp;
+&nbsp; <span class="linenum"> 43 </span> &nbsp;<span class="normal">            src="/objects/5/images/hero.jpg"</span> &nbsp;
+&nbsp; <span class="linenum"> 44 </span> &nbsp;<span class="normal">            name="Swiss Dent"</span> &nbsp;
+&nbsp; <span class="linenum"> 45 </span> &nbsp;<span class="normal">            link="/portfolio/objects/5"</span> &nbsp;
+&nbsp; <span class="linenum"> 46 </span> &nbsp;<span class="normal">          /&gt;</span> &nbsp;
+&nbsp; <span class="linenum"> 47 </span> &nbsp;<span class="normal">          &lt;Card</span> &nbsp;
+&nbsp; <span class="linenum"> 48 </span> &nbsp;<span class="normal">            src="/objects/6/images/hero.jpg"</span> &nbsp;
+&nbsp; <span class="linenum"> 49 </span> &nbsp;<span class="normal">            name="Lincoln"</span> &nbsp;
+&nbsp; <span class="linenum"> 50 </span> &nbsp;<span class="normal">            link="/portfolio/objects/6"</span> &nbsp;
+&nbsp; <span class="linenum"> 51 </span> &nbsp;<span class="normal">          /&gt;</span> &nbsp;
+&nbsp; <span class="linenum"> 52 </span> &nbsp;<span class="normal">          &lt;Card</span> &nbsp;
+&nbsp; <span class="linenum"> 53 </span> &nbsp;<span class="normal">            src="/objects/7/images/hero.jpg"</span> &nbsp;
+&nbsp; <span class="linenum"> 54 </span> &nbsp;<span class="normal">            name="Astrid"</span> &nbsp;
+&nbsp; <span class="linenum"> 55 </span> &nbsp;<span class="normal">            link="/portfolio/objects/7"</span> &nbsp;
+&nbsp; <span class="linenum"> 56 </span> &nbsp;<span class="normal">          /&gt;</span> &nbsp;
+&nbsp; <span class="linenum"> 57 </span> &nbsp;<span class="normal">          &lt;Card</span> &nbsp;
+&nbsp; <span class="linenum"> 58 </span> &nbsp;<span class="normal">            src="/objects/8/images/hero.jpg"</span> &nbsp;
+&nbsp; <span class="linenum"> 59 </span> &nbsp;<span class="normal">            name="Gemma"</span> &nbsp;
+&nbsp; <span class="linenum"> 60 </span> &nbsp;<span class="normal">            link="/portfolio/objects/8"</span> &nbsp;
+&nbsp; <span class="linenum"> 61 </span> &nbsp;<span class="normal">          /&gt;</span> &nbsp;
+&nbsp; <span class="linenum"> 62 </span> &nbsp;<span class="normal">          &lt;Card</span> &nbsp;
+&nbsp; <span class="linenum"> 63 </span> &nbsp;<span class="normal">            src="/objects/9/images/hero.jpg"</span> &nbsp;
+&nbsp; <span class="linenum"> 64 </span> &nbsp;<span class="normal">            name="Aurelia"</span> &nbsp;
+&nbsp; <span class="linenum"> 65 </span> &nbsp;<span class="normal">            link="/portfolio/objects/9"</span> &nbsp;
+&nbsp; <span class="linenum"> 66 </span> &nbsp;<span class="normal">          /&gt;</span> &nbsp;
+&nbsp; <span class="linenum"> 67 </span> &nbsp;<span class="normal">          &lt;Card</span> &nbsp;
+&nbsp; <span class="linenum"> 68 </span> &nbsp;<span class="normal">            src="/objects/10/images/hero.jpg"</span> &nbsp;
+&nbsp; <span class="linenum"> 69 </span> &nbsp;<span class="normal">            name="Seraphina"</span> &nbsp;
+&nbsp; <span class="linenum"> 70 </span> &nbsp;<span class="normal">            link="/portfolio/objects/10"</span> &nbsp;
+&nbsp; <span class="linenum"> 71 </span> &nbsp;<span class="normal">          /&gt;</span> &nbsp;
+&nbsp; <span class="linenum"> 72 </span> &nbsp;<span class="normal">          &lt;Card</span> &nbsp;
+&nbsp; <span class="linenum"> 73 </span> &nbsp;<span class="normal">            src="/objects/11/images/hero.jpg"</span> &nbsp;
+&nbsp; <span class="linenum"> 74 </span> &nbsp;<span class="normal">            name="Peregrine"</span> &nbsp;
+&nbsp; <span class="linenum"> 75 </span> &nbsp;<span class="normal">            link="/portfolio/objects/11"</span> &nbsp;
+&nbsp; <span class="linenum"> 76 </span> &nbsp;<span class="normal">          /&gt;</span> &nbsp;
+&nbsp; <span class="linenum"> 77 </span> &nbsp;<span class="normal">          &lt;Card</span> &nbsp;
+&nbsp; <span class="linenum"> 78 </span> &nbsp;<span class="normal">            src="/objects/12/images/hero.jpg"</span> &nbsp;
+&nbsp; <span class="linenum"> 79 </span> &nbsp;<span class="normal">            name="Leander"</span> &nbsp;
+&nbsp; <span class="linenum"> 80 </span> &nbsp;<span class="normal">            link="/portfolio/objects/12"</span> &nbsp;
+&nbsp; <span class="linenum"> 81 </span> &nbsp;<span class="normal">          /&gt;</span> &nbsp;
+&nbsp; <span class="linenum"> 82 </span> &nbsp;<span class="normal">        &lt;/div&gt;</span> &nbsp;
+&nbsp; <span class="linenum"> 83 </span> &nbsp;<span class="normal">      &lt;/section&gt;</span> &nbsp;
+&nbsp; <span class="linenum"> 84 </span> &nbsp;<span class="normal">      &lt;Footer /&gt;</span> &nbsp;
+&nbsp; <span class="linenum"> 85 </span> &nbsp;<span class="normal">    &lt;/main&gt;</span> &nbsp;
+&nbsp; <span class="linenum"> 86 </span> &nbsp;<span class="normal">  );</span> &nbsp;
+&nbsp; <span class="linenum"> 87 </span> &nbsp;<span class="normal">};</span> &nbsp;
+&nbsp; <span class="linenum"> 88 </span> &nbsp;<span class="normal">export default Objects;</span> &nbsp;
+</tt></pre>
+</body>
+</html>

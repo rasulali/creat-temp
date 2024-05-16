@@ -1,0 +1,16 @@
+{
+  "images": [
+    {
+      "src": "hero.jpg",
+      "alt": "hero image"
+    },
+    {
+      "src": "1.jpg",
+      "alt": "image 1"
+    }
+  ],
+  "info": {
+    "name": "Cascade Layihəsi",
+    "description": ""
+  }
+}

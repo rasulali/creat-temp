@@ -1,0 +1,28 @@
+{
+  "images": [
+    {
+      "src": "hero.jpg",
+      "alt": "hero image"
+    },
+    {
+      "src": "1.jpg",
+      "alt": "image 1"
+    },
+    {
+      "src": "2.jpg",
+      "alt": "image 2"
+    },
+    {
+      "src": "3.jpg",
+      "alt": "image 3"
+    },
+    {
+      "src": "4.jpg",
+      "alt": "image 4"
+    }
+  ],
+  "info": {
+    "name": "Aurelia",
+    "description": ""
+  }
+}
