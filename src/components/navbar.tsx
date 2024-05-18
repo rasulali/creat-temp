@@ -3,8 +3,6 @@ import { useState } from "react";
 import Link from "next/link";
 import { Bars3Icon } from "@heroicons/react/24/outline";
 import Logo from "./logo";
-import { motion } from "framer-motion";
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
 interface NavbarProps {
   isVideoVisible: boolean;
@@ -12,7 +10,6 @@ interface NavbarProps {
 
 const Navbar: React.FC<NavbarProps> = ({ isVideoVisible }) => {
   const [menuState, setMenuState] = useState(false);
-  const [subMenuState, setSubMenuState] = useState(false);
   const Menu = () => {
     return (
       <div
@@ -20,52 +17,14 @@ const Navbar: React.FC<NavbarProps> = ({ isVideoVisible }) => {
       lg:justify-evenly lg:h-full lg:items-center text-right lg:text-center
       gap-8 text-nowrap"
       >
-        <motion.div
-          onHoverStart={() => setSubMenuState(true)}
-          onHoverEnd={() => setSubMenuState(false)}
-          className="flex flex-col z-10 relative"
-        >
-          <motion.div className="flex gap-x-2">
-            <Link
-              href="javascript:void(0)"
-              className="text-base sm:text-lg text-zinc-100 uppercase
+        <Link
+          href=""
+          className="text-base sm:text-lg text-zinc-100 uppercase
            lg:hover:text-creatViolet transition-colors duration-500
           w-fit lg:ml-0 ml-auto"
-            >
-              Services
-            </Link>
-            <div
-              className="w-6 aspect-square"
-              onClick={() => {
-                setSubMenuState(!subMenuState);
-              }}
-            >
-              <ChevronDownIcon
-                className={`w-full h-full text-zinc-100 ${subMenuState ? "rotate-180" : "rotate-0"}`}
-              />
-            </div>
-          </motion.div>
-          <motion.div
-            initial={{ height: 0 }}
-            animate={{ height: subMenuState ? "auto" : 0 }}
-            transition={{ duration: 0.3 }}
-            className="sm:absolute sm:top-7 sm:-translate-x-4 w-max flex flex-col
-            gap-y-2 overflow-hidden sm:px-4 relative h-fit"
-          >
-            <div
-              className={`flex flex-col gap-y-2 py-2 text-zinc-100 sm:text-left
-            text-base sm:text-lg  sm:px-4 sm:rounded-lg sm:-translate-x-4 sm:drop-shadow
-            ${isVideoVisible ? "sm:bg-creatBlue/50 sm:backdrop-blur-lg" : "sm:bg-creatBlue"}`}
-            >
-              <Link
-                className="hover:text-creatViolet transition-colors duration-500 px-8"
-                href="/portfolio"
-              >
-                Projects
-              </Link>
-            </div>
-          </motion.div>
-        </motion.div>
+        >
+          Services
+        </Link>
         <Link
           href="/portfolio"
           className="text-md sm:text-lg text-zinc-100 uppercase
@@ -102,16 +61,16 @@ const Navbar: React.FC<NavbarProps> = ({ isVideoVisible }) => {
 
   return (
     <div className="fixed w-screen z-30">
-      <div className="w-full bg-[#ce104d] py-2 flex gap-x-1">
-        <h1 className="text-nowrap text-2xl text-zinc-100 w-fit animate-infiniteScroll inline-block tracking-wide">
+      <div className="w-full bg-[#ce104d] lg:py-2 py-1 flex gap-x-1 text-zinc-100 lg:text-2xl">
+        <h1 className="text-nowrap text-zinc-100 w-fit animate-infiniteScroll inline-block tracking-wide">
           We apologize for any inconvenience Website is currently under
           construction
         </h1>
-        <h1 className="text-nowrap text-2xl text-zinc-100 w-fit animate-infiniteScroll inline-block tracking-wide">
+        <h1 className="text-nowrap text-zinc-100 w-fit animate-infiniteScroll inline-block tracking-wide">
           We apologize for any inconvenience Website is currently under
           construction
         </h1>
-        <h1 className="text-nowrap text-2xl text-zinc-100 w-fit animate-infiniteScroll inline-block tracking-wide">
+        <h1 className="text-nowrap text-zinc-100 w-fit animate-infiniteScroll inline-block tracking-wide">
           We apologize for any inconvenience Website is currently under
           construction
         </h1>
@@ -156,7 +115,7 @@ const Navbar: React.FC<NavbarProps> = ({ isVideoVisible }) => {
         <div
           className={`bg-creatBlue ${isVideoVisible && "bg-creatBlue/50 backdrop-blur-lg"}
         transition-colors duration-500
-        w-[calc(100vw-80px-32px)] h-[calc(100%-80px-32px)] mt-[calc(80px+32px)]`}
+        w-[calc(100vw-80px-32px)] h-[calc(100%-80px-32px-32px)] mt-[calc(80px+32px+32px)]`}
         >
           <Menu />
         </div>

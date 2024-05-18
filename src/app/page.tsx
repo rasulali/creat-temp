@@ -31,7 +31,7 @@ import Image from "next/image";
 import CreatPro from "@/components/creatPro";
 
 const Home = () => {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   useEffect(() => {
     document.body.style.overflow = "hidden";
     new Promise((resolve) => setTimeout(resolve, 1400)).then(() => {
@@ -89,7 +89,7 @@ const Home = () => {
         <Contact scroll={scroll} />
         <Navbar isVideoVisible={videoInView} />
         <div className="w-full h-full relative">
-          <div className="flex flex-col w-full h-full bg-transparent z-20 justify-center absolute lg:px-12">
+          <div className="flex flex-col items-center lg:items-start w-full h-full bg-transparent z-20 justify-center absolute lg:px-12">
             <Heading
               animate={{ from: -20, to: 0, dir: "x" }}
               variant="h1"
@@ -123,19 +123,20 @@ const Home = () => {
           </span>
         )}
       </section>
-      <section className="min-h-screen max-w-[1920px] mx-auto">
-        <div className="m-12">
+      <section>
+        <div className="lg:mt-12 lg:ml-12 mt-8 flex justify-center lg:justify-start">
           <Heading
             animate={{ from: -20, to: 0, dir: "x" }}
             variant="h2"
             text={
-              <h1 className="text-creatBlue font-semibold">
-                Projects we are proud of
+              <h1 className="text-creatBlue font-semibold text-wrap">
+                Projects we are{" "}
+                <span className="italic underline">proud of</span>
               </h1>
             }
           />
         </div>
-        <div className="w-full grid grid-cols-2 grid-rows-2 p-12 gap-12">
+        <div className="w-full grid grid-cols-1 lg:grid-cols-2 lg:p-12 p-4 lg:gap-12 gap-4 4xl:grid-cols-3 ">
           <CreatPro
             countImage={5}
             src={[
@@ -379,7 +380,7 @@ const Home = () => {
             delay={0.25}
             tag="Repair/Construction"
             src={construction}
-            href="javascript:void(0)"
+            href=""
           />
         </div>
       </section>

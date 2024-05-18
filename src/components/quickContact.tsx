@@ -42,9 +42,10 @@ const Contact: React.FC<ContactProps> = ({ scroll }) => {
           <motion.div
             initial={{
               opacity: 0,
+              display: "none",
             }}
             animate={
-              scroll < 0.1 || scroll > 0.9
+              scroll < 0.1 || scroll > 0.98
                 ? {
                     opacity: 0,
                     display: "none",
@@ -64,9 +65,9 @@ const Contact: React.FC<ContactProps> = ({ scroll }) => {
             onClick={() => {
               setMenuState(true);
             }}
-            className={`fixed bottom-6 right-2 lg:right-6 rounded-full bg-creatBlue
+            className={`fixed bottom-6 right-2 lg:right-6 rounded-full bg-creatBlue drop-shadow-lg
       px-6 py-3 sm:lg:px-8 lg:sm:py-4 z-50 text-zinc-100 transition-colors duration-200
-      hover:bg-zinc-100 hover:text-creatBlue cursor-pointer font-semibold border-2 border-zinc-100`}
+      hover:bg-zinc-100 hover:text-creatBlue cursor-pointer font-semibold`}
           >
             <h1 className="block uppercase cursor-pointer text-xl sm:lg:text-2xl text-nowrap">
               Contact
