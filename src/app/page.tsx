@@ -31,7 +31,7 @@ import Image from "next/image";
 import CreatPro from "@/components/creatPro";
 
 const Home = () => {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
     document.body.style.overflow = "hidden";
     new Promise((resolve) => setTimeout(resolve, 1400)).then(() => {
