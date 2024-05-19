@@ -23,7 +23,7 @@ const Hotels = () => {
         >
           <Card
             src="/hotels/1/images/hero.jpg"
-            name="Knyazlı Otel"
+            name="Knyazlı Hotel"
             text="Qəbələ 3000 m²"
             link="/portfolio/hotels/1"
           />
@@ -35,13 +35,13 @@ const Hotels = () => {
           />
           <Card
             src="/hotels/3/images/hero.jpg"
-            name="Moskva Brosko Otel"
+            name="Moskva Brosko Hotel"
             link="/portfolio/hotels/3"
           />
           <Card
             src="/hotels/4/images/hero.jpg"
-            name="Moskva Otel"
-            text="VIP otaq 200 m²"
+            name="Moskva Hotel"
+            text="VIP room 200 m²"
             link="/portfolio/hotels/4"
           />
         </div>

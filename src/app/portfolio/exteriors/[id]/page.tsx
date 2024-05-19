@@ -44,7 +44,7 @@ const Exterior = ({ params }: { params: { id: number } }) => {
     { src: "", alt: "" },
   ]);
   const [info, setInfo] = useState<InfoProps>({
-    name: "Layihə",
+    name: "Project",
     description: "",
   });
 

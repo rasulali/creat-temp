@@ -72,7 +72,7 @@ const Portfolio = () => {
               <Heading
                 animate={{ from: -20, to: 0, dir: "x" }}
                 variant="h2"
-                text="İnteryer"
+                text={<h1 className="text-creatBlue">Interior Projects</h1>}
               />
             </div>
 
@@ -82,198 +82,198 @@ const Portfolio = () => {
             >
               <Card
                 src="/interiors/1/images/hero.jpg"
-                name="Ağ Şəhər Layihəsi"
+                name="Ağ Şəhər Project"
                 text="240kv m²"
                 link="/portfolio/interiors/1"
               />
               <Card
                 src="/interiors/2/images/hero.jpg"
-                name="Zest Layihəsi"
+                name="Zest Project"
                 link="/portfolio/interiors/2"
               />
               <Card
                 src="/interiors/3/images/hero.jpg"
-                name="Slate Layihəsi"
+                name="Slate Project"
                 link="/portfolio/interiors/3"
               />
               <Card
                 src="/interiors/4/images/hero.jpg"
-                name="Spark Layihəsi"
+                name="Spark Project"
                 link="/portfolio/interiors/4"
               />
               <Card
                 src="/interiors/5/images/hero.jpg"
-                name="Quill Layihəsi"
+                name="Quill Project"
                 link="/portfolio/interiors/5"
               />
               <Card
                 src="/interiors/6/images/hero.jpg"
-                name="Swift Layihəsi"
+                name="Swift Project"
                 link="/portfolio/interiors/6"
               />
               <Card
                 src="/interiors/7/images/hero.jpg"
-                name="Prism Layihəsi"
+                name="Prism Project"
                 link="/portfolio/interiors/7"
               />
               <Card
                 src="/interiors/8/images/hero.jpg"
-                name="Pivot Layihəsi"
+                name="Pivot Project"
                 link="/portfolio/interiors/8"
               />
               <Card
                 src="/interiors/9/images/hero.jpg"
-                name="Wisp Layihəsi"
+                name="Wisp Project"
                 link="/portfolio/interiors/9"
               />
               <Card
                 src="/interiors/10/images/hero.jpg"
-                name="Lumo Layihəsi"
+                name="Lumo Project"
                 link="/portfolio/interiors/10"
               />
               <Card
                 src="/interiors/11/images/hero.jpg"
-                name="Pinnacle Layihəsi"
+                name="Pinnacle Project"
                 link="/portfolio/interiors/11"
               />
               <Card
                 src="/interiors/12/images/hero.jpg"
-                name="Odyssey Layihəsi"
+                name="Odyssey Project"
                 link="/portfolio/interiors/12"
               />
               <Card
                 src="/interiors/13/images/hero.jpg"
-                name="Evolve Layihəsi"
+                name="Evolve Project"
                 link="/portfolio/interiors/13"
               />
               <Card
                 src="/interiors/14/images/hero.jpg"
-                name="Mirage Layihəsi"
+                name="Mirage Project"
                 link="/portfolio/interiors/14"
               />
               <Card
                 src="/interiors/15/images/hero.jpg"
-                name="Sable Layihəsi"
+                name="Sable Project"
                 link="/portfolio/interiors/15"
               />
               <Card
                 src="/interiors/16/images/hero.jpg"
-                name="Helix Layihəsi"
+                name="Helix Project"
                 link="/portfolio/interiors/16"
               />
               <Card
                 src="/interiors/17/images/hero.jpg"
-                name="Peak Layihəsi"
+                name="Peak Project"
                 link="/portfolio/interiors/17"
               />
               <Card
                 src="/interiors/18/images/hero.jpg"
-                name="Gleam Layihəsi"
+                name="Gleam Project"
                 link="/portfolio/interiors/18"
               />
               <Card
                 src="/interiors/19/images/hero.jpg"
-                name="Iris Layihəsi"
+                name="Iris Project"
                 link="/portfolio/interiors/19"
               />
               <Card
                 src="/interiors/20/images/hero.jpg"
-                name="Crest Layihəsi"
+                name="Crest Project"
                 link="/portfolio/interiors/20"
               />
               <Card
                 src="/interiors/21/images/hero.jpg"
-                name="Sway Layihəsi"
+                name="Sway Project"
                 link="/portfolio/interiors/21"
               />
               <Card
                 src="/interiors/22/images/hero.jpg"
-                name="Axis Layihəsi"
+                name="Axis Project"
                 link="/portfolio/interiors/22"
               />
               <Card
                 src="/interiors/23/images/hero.jpg"
-                name="Zephyr Layihəsi"
+                name="Zephyr Project"
                 link="/portfolio/interiors/23"
               />
               <Card
                 src="/interiors/24/images/hero.jpg"
-                name="Nove Layihəsi"
+                name="Nove Project"
                 link="/portfolio/interiors/24"
               />
               <Card
                 src="/interiors/25/images/hero.jpg"
-                name="Dusk Layihəsi"
+                name="Dusk Project"
                 link="/portfolio/interiors/25"
               />
               <Card
                 src="/interiors/26/images/hero.jpg"
-                name="Echo Layihəsi"
+                name="Echo Project"
                 link="/portfolio/interiors/26"
               />
               <Card
                 src="/interiors/27/images/hero.jpg"
-                name="Grove Layihəsi"
+                name="Grove Project"
                 link="/portfolio/interiors/27"
               />
               <Card
                 src="/interiors/28/images/hero.jpg"
-                name="Haven Layihəsi"
+                name="Haven Project"
                 link="/portfolio/interiors/28"
               />
               <Card
                 src="/interiors/29/images/hero.jpg"
-                name="Vista Layihəsi"
+                name="Vista Project"
                 link="/portfolio/interiors/29"
               />
               <Card
                 src="/interiors/30/images/hero.jpg"
-                name="Urban Layihəsi"
+                name="Urban Project"
                 link="/portfolio/interiors/30"
               />
               <Card
                 src="/interiors/31/images/hero.jpg"
-                name="Flume Layihəsi"
+                name="Flume Project"
                 link="/portfolio/interiors/31"
               />
               <Card
                 src="/interiors/32/images/hero.jpg"
-                name="Terre Layihəsi"
+                name="Terre Project"
                 link="/portfolio/interiors/32"
               />
               <Card
                 src="/interiors/33/images/hero.jpg"
-                name="Luna Layihəsi"
+                name="Luna Project"
                 link="/portfolio/interiors/33"
               />
               <Card
                 src="/interiors/34/images/hero.jpg"
-                name="Oasis Layihəsi"
+                name="Oasis Project"
                 link="/portfolio/interiors/34"
               />
               <Card
                 src="/interiors/35/images/hero.jpg"
-                name="Nest Layihəsi"
+                name="Nest Project"
                 link="/portfolio/interiors/35"
               />
               <Card
                 src="/interiors/36/images/hero.jpg"
-                name="Bliss Layihəsi"
+                name="Bliss Project"
                 link="/portfolio/interiors/36"
               />
               <Card
                 src="/interiors/37/images/hero.jpg"
-                name="Aura Layihəsi"
+                name="Aura Project"
                 link="/portfolio/interiors/37"
               />
               <Card
                 src="/interiors/38/images/hero.jpg"
-                name="Forge Layihəsi"
+                name="Forge Project"
                 link="/portfolio/interiors/38"
               />
               <Card
                 src="/interiors/39/images/hero.jpg"
-                name="Serene Layihəsi"
+                name="Serene Project"
                 link="/portfolio/interiors/39"
               />
             </div>
@@ -284,7 +284,7 @@ const Portfolio = () => {
               <Heading
                 animate={{ from: -25, to: 0, dir: "x" }}
                 variant="h2"
-                text="Eksteryer"
+                text={<h1 className="text-creatBlue">Exterior Projects</h1>}
               />
             </div>
             <div
@@ -293,72 +293,72 @@ const Portfolio = () => {
             >
               <Card
                 src="/exteriors/1/images/hero.jpg"
-                name="Pinnacle Layihəsi"
+                name="Pinnacle Project"
                 link="/portfolio/exteriors/1"
               />
               <Card
                 src="/exteriors/2/images/hero.jpg"
-                name="Terra Layihəsi"
+                name="Terra Project"
                 link="/portfolio/exteriors/2"
               />
               <Card
                 src="/exteriors/3/images/hero.jpg"
-                name="Zenith Layihəsi"
+                name="Zenith Project"
                 link="/portfolio/exteriors/3"
               />
               <Card
                 src="/exteriors/4/images/hero.jpg"
-                name="Nebula Layihəsi"
+                name="Nebula Project"
                 link="/portfolio/exteriors/4"
               />
               <Card
                 src="/exteriors/5/images/hero.jpg"
-                name="Skyreach Layihəsi"
+                name="Skyreach Project"
                 link="/portfolio/exteriors/5"
               />
               <Card
                 src="/exteriors/6/images/hero.jpg"
-                name="Quartz Layihəsi"
+                name="Quartz Project"
                 link="/portfolio/exteriors/6"
               />
               <Card
                 src="/exteriors/7/images/hero.jpg"
-                name="Summit Layihəsi"
+                name="Summit Project"
                 link="/portfolio/exteriors/7"
               />
               <Card
                 src="/exteriors/8/images/hero.jpg"
-                name="Harbor Layihəsi"
+                name="Harbor Project"
                 link="/portfolio/exteriors/8"
               />
               <Card
                 src="/exteriors/9/images/hero.jpg"
-                name="Aspect Layihəsi"
+                name="Aspect Project"
                 link="/portfolio/exteriors/9"
               />
               <Card
                 src="/exteriors/10/images/hero.jpg"
-                name="Mosaic Layihəsi"
+                name="Mosaic Project"
                 link="/portfolio/exteriors/10"
               />
               <Card
                 src="/exteriors/11/images/hero.jpg"
-                name="Vertex Layihəsi"
+                name="Vertex Project"
                 link="/portfolio/exteriors/11"
               />
               <Card
                 src="/exteriors/12/images/hero.jpg"
-                name="Horizon Layihəsi"
+                name="Horizon Project"
                 link="/portfolio/exteriors/12"
               />
               <Card
                 src="/exteriors/13/images/hero.jpg"
-                name="Cascade Layihəsi"
+                name="Cascade Project"
                 link="/portfolio/exteriors/13"
               />
               <Card
                 src="/exteriors/14/images/hero.jpg"
-                name="Serenity Layihəsi"
+                name="Serenity Project"
                 link="/portfolio/exteriors/14"
               />
             </div>
@@ -369,7 +369,7 @@ const Portfolio = () => {
               <Heading
                 animate={{ from: -25, to: 0, dir: "x" }}
                 variant="h2"
-                text="Restoranlar"
+                text={<h1 className="text-creatBlue">Restaurant Projects</h1>}
               />
             </div>
             <div
@@ -444,7 +444,7 @@ const Portfolio = () => {
               <Heading
                 animate={{ from: -25, to: 0, dir: "x" }}
                 variant="h2"
-                text="Otellər"
+                text={<h1 className="text-creatBlue">Hotel Projects</h1>}
               />
             </div>
             <div
@@ -453,7 +453,7 @@ const Portfolio = () => {
             >
               <Card
                 src="/hotels/1/images/hero.jpg"
-                name="Knyazlı Otel"
+                name="Knyazlı Hotel"
                 text="Qəbələ 3000 m²"
                 link="/portfolio/hotels/1"
               />
@@ -465,13 +465,13 @@ const Portfolio = () => {
               />
               <Card
                 src="/hotels/3/images/hero.jpg"
-                name="Moskva Brosko Otel"
+                name="Moskva Brosko Hotel"
                 link="/portfolio/hotels/3"
               />
               <Card
                 src="/hotels/4/images/hero.jpg"
-                name="Moskva Otel"
-                text="VIP otaq 200 m²"
+                name="Moskva Hotel"
+                text="VIP room 200 m²"
                 link="/portfolio/hotels/4"
               />
             </div>
@@ -482,7 +482,7 @@ const Portfolio = () => {
               <Heading
                 animate={{ from: -25, to: 0, dir: "x" }}
                 variant="h2"
-                text="İaşə Obyektləri"
+                text={<h1 className="text-creatBlue">Other Facilities</h1>}
               />
             </div>
             <div

@@ -23,72 +23,72 @@ const Exteriors = () => {
         >
           <Card
             src="/exteriors/1/images/hero.jpg"
-            name="Pinnacle Layihəsi"
+            name="Pinnacle Project"
             link="/portfolio/exteriors/1"
           />
           <Card
             src="/exteriors/2/images/hero.jpg"
-            name="Terra Layihəsi"
+            name="Terra Project"
             link="/portfolio/exteriors/2"
           />
           <Card
             src="/exteriors/3/images/hero.jpg"
-            name="Zenith Layihəsi"
+            name="Zenith Project"
             link="/portfolio/exteriors/3"
           />
           <Card
             src="/exteriors/4/images/hero.jpg"
-            name="Nebula Layihəsi"
+            name="Nebula Project"
             link="/portfolio/exteriors/4"
           />
           <Card
             src="/exteriors/5/images/hero.jpg"
-            name="Skyreach Layihəsi"
+            name="Skyreach Project"
             link="/portfolio/exteriors/5"
           />
           <Card
             src="/exteriors/6/images/hero.jpg"
-            name="Quartz Layihəsi"
+            name="Quartz Project"
             link="/portfolio/exteriors/6"
           />
           <Card
             src="/exteriors/7/images/hero.jpg"
-            name="Summit Layihəsi"
+            name="Summit Project"
             link="/portfolio/exteriors/7"
           />
           <Card
             src="/exteriors/8/images/hero.jpg"
-            name="Harbor Layihəsi"
+            name="Harbor Project"
             link="/portfolio/exteriors/8"
           />
           <Card
             src="/exteriors/9/images/hero.jpg"
-            name="Aspect Layihəsi"
+            name="Aspect Project"
             link="/portfolio/exteriors/9"
           />
           <Card
             src="/exteriors/10/images/hero.jpg"
-            name="Mosaic Layihəsi"
+            name="Mosaic Project"
             link="/portfolio/exteriors/10"
           />
           <Card
             src="/exteriors/11/images/hero.jpg"
-            name="Vertex Layihəsi"
+            name="Vertex Project"
             link="/portfolio/exteriors/11"
           />
           <Card
             src="/exteriors/12/images/hero.jpg"
-            name="Horizon Layihəsi"
+            name="Horizon Project"
             link="/portfolio/exteriors/12"
           />
           <Card
             src="/exteriors/13/images/hero.jpg"
-            name="Cascade Layihəsi"
+            name="Cascade Project"
             link="/portfolio/exteriors/13"
           />
           <Card
             src="/exteriors/14/images/hero.jpg"
-            name="Serenity Layihəsi"
+            name="Serenity Project"
             link="/portfolio/exteriors/14"
           />
         </div>
